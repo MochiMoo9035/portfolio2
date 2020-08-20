@@ -1,0 +1,147 @@
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #ED7EBB;
+  box-shadow: 3px 3px 3px#406200;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+p, h3 {
+  /* color: #358600; */
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#text {
+  margin: auto;
+  width: 70%;
+}
+
+body {
+  background-color: #D0F984;
+  font-family: 'Pangolin', cursive, Comic Sans MS, Arial, Helvetica;
+  font-size: large;
+}
+
+a:link {
+  color: #d368c1;
+}
+
+a:visited {
+  color: #406200;
+}
+
+a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: #B40665;
+  width: 85%;
+  margin: auto;
+  padding: 7px;
+  border-radius: 15px;
+  display: block;
+  margin-top: 30px;
+  text-color: #8ACF07;
+}
+
+/* .hidden {
+  display: none;
+} */
+
+.cursor-trail {
+    position: absolute;
+    z-index: 10000;
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    background-color: black;
+    pointer-events: none;
+}
+
+.yellow-trail {
+    background-color: yellow;
+}
+
+.shown {
+  display: block;
+}
+
+.center {
+  text-align: center;
+}
+
+#display-board {
+  background-color: white;
+  /* margin: 10px; */
+  border-radius: 10px;
+  width: 90%;
+  /* height: 10000px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-top: 10;
+  /* margin-bottom: 10; */ 
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  float: left;
+}
+
+#card-changer {
+  position: fixed;
+  top: 20%;
+  left: 91%;
+}
+
+hr {
+  color: #55002F;
+}
+
+button {
+  color: #8ACF07;
+  background-color: #55002F;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  border: dashed #D0F984 2px;
+  font-family: 'Pangolin', cursive, Comic Sans MS, Arial, Helvetica;
+  box-shadow: 3px 3px 3px#406200;
+}
+/* 
+#div {
+display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
