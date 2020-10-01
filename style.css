@@ -1,8 +1,8 @@
 /* Style the navbar */
 #navbar {
   overflow: hidden;
-  background-color: #ED7EBB;
-  box-shadow: 3px 3px 3px#406200;
+  background-color: rgba(255, 190, 226, 0.801);
+  box-shadow: 3px 3px 3px#e9b7d296;
 }
 
 /* Navbar links */
@@ -42,17 +42,17 @@ p, h3 {
 }
 
 body {
-  background-color: #D0F984;
+  background-color: #ffffff;
   font-family: 'Pangolin', cursive, Comic Sans MS, Arial, Helvetica;
   font-size: large;
 }
 
 a:link {
-  color: #d368c1;
+  color:  #000000;
 }
 
 a:visited {
-  color: #406200;
+  color: #000000;
 }
 
 a {
@@ -62,7 +62,7 @@ a {
 }
 
 .card {
-  background-color: #B40665;
+  background-color:rgb(255, 148, 207);
   width: 85%;
   margin: auto;
   padding: 7px;
@@ -126,18 +126,18 @@ a {
 }
 
 hr {
-  color: #55002F;
+  color: rgb(255, 148, 207);
 }
 
 button {
-  color: #8ACF07;
-  background-color: #55002F;
+  color: #000000;
+  background-color: rgb(255, 148, 207);
   border-radius: 20px;
   width: 100px;
   height: 50px;
-  border: dashed #D0F984 2px;
+  /* border: dashed #D0F984 2px; */
   font-family: 'Pangolin', cursive, Comic Sans MS, Arial, Helvetica;
-  box-shadow: 3px 3px 3px#406200;
+  box-shadow: 3px 3px 3px#e9b7d296;
 }
 /* 
 #div {
