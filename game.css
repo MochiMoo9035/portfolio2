@@ -6,9 +6,10 @@ body {
 button {
   font-family: 'Lemonada', cursive, Arial, Helvetica, sans-serif;
   font-size: large;
-  background-color:  #B40665;
+  background-color:rgb(255, 148, 207);
   padding: 10px;
-  border: 1px dashed#406200;
+  /* border: 1px dashed#406200; */
+  box-shadow: #e9b7d2;
   border-radius: 5px;
   width: 100px;
 }
@@ -16,7 +17,7 @@ button {
 .space {
   width: 200px;
   height: 200px;
-  border:  1px solid #B40665;
+  border:  1px solid rgb(255, 148, 207);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +37,7 @@ h1, h2, p {
 }
 
 #win-container {
-  border: 3px dashed rgb(153, 82, 211);
+  /* border: 3px dashed rgb(153, 82, 211); */
   border-radius: 5px;
   padding: 15px;
   width: 80%;
