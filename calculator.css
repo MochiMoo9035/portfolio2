@@ -63,10 +63,10 @@ button#call-btn {
 }
 
 #input {
-  background-color: #B40665;
+  background-color: rgba(255, 190, 226, 0.801);
   border: none;
   border-radius: 20px;
-  box-shadow: 3px 3px 3px#406200;
+  box-shadow: 3px 3px 3px#e9b7d296;
    display: block;
    margin: auto;
   /* align-items: center;
@@ -84,11 +84,10 @@ button#call-btn {
 }
 
 #input input {
-  background-color: #406200;
-  border: dashed #D0F984 2px;
+  background-color: #ffffff;
   border-radius: 20px;
-  box-shadow: 1px 1px 1px #B40665;
-  color:  #D0F984;
+  box-shadow: 1px 1px 1px#e9b7d296;
+  color:  #00000;
   margin: 5px;
   font-family: 'Pangolin', cursive, Comic Sans MS, Arial, Helvetica;
   text-align: center;
